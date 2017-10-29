@@ -18,6 +18,6 @@ Each source sends a payload, with the first byte indicating the source number i.
 - Compile the source and destination files with `make`
 - Run in the following order  
   - `./destination`
-  - `python rr.py` or `python fifo.py` or `python WFQ.py`
+  - `python rr.py` or `python fifo.py` or `python wfq.py`
   - `./sources`
 The destination process will output the source packet names.
